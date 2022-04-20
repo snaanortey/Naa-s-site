@@ -9,15 +9,27 @@ font-family: 'Sacramento', cursive;}
 h2 {font-family: 'Montserrat', sans-serif;}
 
 h3{font-family: 'Montserrat', sans-serif;
-color: green;}
+color: #461111;}
 
 .firstcontainer {background-color: #F2FFE9;
   position: relative;
   padding:100px;}
 
-.middle-container {
-
+.middle-container {background-color: #FBF8F1;
+  position: relative;
+  padding:100px;
 }
+
+.intro {font-family: 'Courgette', cursive;
+color: #39375B;}
+
+.contact-me {background-color: #FBF4F9;
+  position: relative;
+padding:100px;}
+
+.skills {background-color: #EF7ECDE;
+  position: relative;
+  padding:100px;}
 
 .profile {}
 
