@@ -52,10 +52,33 @@ h3 {
   margin: auto;
 }
 
-.btn {background-color: #96CEB4;
-  padding: 5px;
-  text-color: white;
+.btn {
+  background: #96CEB4;
+  background-image: -webkit-linear-gradient(top, #96CEB4, #96CEB4);
+  background-image: -moz-linear-gradient(top, #96CEB4, #96CEB4);
+  background-image: -ms-linear-gradient(top, #96CEB4, #96CEB4);
+  background-image: -o-linear-gradient(top, #96CEB4, #96CEB4);
+  background-image: linear-gradient(to bottom, #96CEB4, #96CEB4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
+
+.btn:hover {
+  background: #96CEB4;
+  background-image: -webkit-linear-gradient(top, #96CEB4, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 .skill-row {
   width: 50%;
@@ -120,17 +143,25 @@ a {
 
 .bottom-container {background-color: #96CEB4;
   text-align: center;
+  padding: 20px;
 }
 
-span {padding: 10px;}
-
-.linkedin {width: 60px;
+span {padding: 20px;
 }
 
-.youtube {width: 60px;
+.linkedin {width: 50px;
+  hanging-punctuation: none;
 }
 
-.instagram {width: 60px;
+.youtube {width: 50px;
+}
+
+.instagram {width: 50px;
+  hanging-punctuation: none;
+}
+
+.trademark {padding-top: 20px;
+  font-size: 0.6rem;
 }
 
 .skills {
