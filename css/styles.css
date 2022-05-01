@@ -1,43 +1,155 @@
-body {margin: 0;
-text-align: center;
-font-family: 'Merriweather', serif;
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  position: relative;
 }
 
-h1 {margin: 0;
-font-family: 'Sacramento', cursive;}
-
-h2 {font-family: 'Montserrat', sans-serif;}
-
-h3{font-family: 'Montserrat', sans-serif;
-color: #461111;}
-
-.firstcontainer {background-color: #F2FFE9;
-  position: relative;
-  padding:100px;}
-
-.middle-container {background-color: #FBF8F1;
-  position: relative;
-  padding:100px;
+.intro {font-size:0.9rem;
+  width: 40%;
+  text-align: center;
+  margin: auto;
 }
 
-.intro {font-family: 'Courgette', cursive;
-color: #39375B;}
+.plantain-gif {padding-top: 15px;
+}
 
-.contact-me {background-color: #FBF4F9;
-  position: relative;
-padding:100px;}
+.hobbies {font-size: 0.7rem;
+  padding: 25px;
+  margin-bottom: 50px;
 
-.skills {background-color: #EF7ECDE;
-  position: relative;
-  padding:100px;}
+}
 
-.profile {}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 0.5;
+}
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #D49B54;
+  font-weight: normal;
+  padding: 2%;
+  margin: auto;
+}
 
-#profile-pic {width: 400px;
-padding: 10px;}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3D0000;
+  line-height: 1;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
 
-.top-cloud {position: relative;
-left: 200px;}
+.contact-me {
+  font-size: 0.9rem;
+  width: 60%;
+  margin: auto;
+}
 
-.button-cloud {position: absolute;}
+.btn {background-color: #96CEB4;
+  padding: 5px;
+  text-color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 120px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 0.8rem;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.finance-img {
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+.data-vis-img {width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.line-break {border-style: dotted solid;
+  width: 10%;
+  border-width: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #DFDFDE;
+text-align:center;
+
+}
+
+a {
+  color: blue;
+}
+
+.firstcontainer {
+  background-color: #F2FFE9;
+  padding: 100px;
+}
+
+.middle-container {
+  background-color: #FBF8F1;
+  padding: 100px;
+}
+
+.intro {
+  font-family: 'Courgette', cursive;
+  color: #39375B;
+  font-size: 0.8rem;
+}
+
+.contact-me {
+  padding: 2%;
+  margin: auto;
+}
+
+.bottom-container {background-color: #96CEB4;
+  text-align: center;
+}
+
+span {padding: 10px;}
+
+.linkedin {width: 60px;
+}
+
+.youtube {width: 60px;
+}
+
+.instagram {width: 60px;
+}
+
+.skills {
+  background-color: #EF7ECDE;
+}
+
+#profile-pic {
+  width: 400px;
+  padding: 10px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 150px;
+}
+
+.button-cloud {
+  position: absolute;
+  left: 188px;
+  top: 300px;
+}
