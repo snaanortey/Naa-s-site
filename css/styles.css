@@ -5,16 +5,19 @@ body {
   position: relative;
 }
 
-.intro {font-size:0.9rem;
-  width: 40%;
+.intro {font-size:1.4rem;;
+  width: 60%;
   text-align: center;
   margin: auto;
+  line-height: double;
+  font-family: 'Courgette', cursive;
+  color: #39375B;
 }
 
 .plantain-gif {padding-top: 15px;
 }
 
-.hobbies {font-size: 0.7rem;
+.hobbies {font-size: 0.5rem;
   padding: 25px;
   margin-bottom: 50px;
 
@@ -26,6 +29,7 @@ h1 {
   font-size: 5.625rem;
   color: #66BFBF;
   line-height: 0.5;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -81,11 +85,11 @@ h3 {
 
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 30px auto 120px auto;
   text-align: left;
   line-height: 2;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .code-img {
@@ -130,15 +134,11 @@ a {
   padding: 100px;
 }
 
-.intro {
-  font-family: 'Courgette', cursive;
-  color: #39375B;
-  font-size: 0.8rem;
-}
-
 .contact-me {
   padding: 2%;
   margin: auto;
+  line-height: double;
+  width: 50%;
 }
 
 .bottom-container {background-color: #96CEB4;
@@ -162,6 +162,7 @@ span {padding: 20px;
 
 .trademark {padding-top: 20px;
   font-size: 0.6rem;
+  color: white;
 }
 
 .skills {
